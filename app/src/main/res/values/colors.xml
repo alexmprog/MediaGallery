@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="white">#ffffff</color>
+
+    <!-- gallery colors -->
+    <color name="gallery_status_bar_color">#6e6e6e</color>
+    <color name="gallery_toolbar_color">#8a8a8a</color>
+    <color name="gallery_tab_bar_indicator_color">#f8cc1c</color>
+    <color name="gallery_toolbar_divider_color">#5c5c5c</color>
+    <color name="gallery_background_color">#2f2d33</color>
+    <color name="gallery_item_background_color">#000000</color>
+    <color name="gallery_toolbar_light_color">#fafafa</color>
+</resources>

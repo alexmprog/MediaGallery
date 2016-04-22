@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        applicationId globalConfiguration.getAt("androidApplicationId")
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+        versionCode globalConfiguration.getAt("androidVersionCode")
+        versionName globalConfiguration.getAt("androidVersionName")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+    def libraryDependencies = rootProject.ext.librariesDependencies
+
+    // Support libraries
+    compile libraryDependencies.appCompat
+    compile libraryDependencies.supportDesign
+    compile libraryDependencies.supportV13
+    compile libraryDependencies.recyclerView
+
+    // Butterknife
+    compile libraryDependencies.butterKnife
+
+    // Glide image loading
+    compile libraryDependencies.glide
+    compile libraryDependencies.glideTransformations
+
+    compile libraryDependencies.junit
+}

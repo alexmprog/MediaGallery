@@ -1,0 +1,28 @@
+apply from: 'buildsystem/dependencies.gradle'
+
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "http://oss.sonatype.org/content/repositories/snapshots" }
+    }
+    dependencies {
+        // Gradle
+        classpath 'com.android.tools.build:gradle:2.0.0'
+    }
+}
+
+allprojects {
+
+    ext {
+        androidApplicationId = 'com.renovavision.mediagallery' //should be changed to 'com.the8app.android'
+        androidVersionCode = 1
+        androidVersionName = "1.0.0"
+        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    repositories {
+        jcenter()
+        maven { url "http://oss.sonatype.org/content/repositories/snapshots" }
+    }
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="photo_selection_icon_one">
+        <item>@drawable/ic_number_0</item>
+    </array>
+
+    <array name="photo_selection_icons">
+        <item>@drawable/ic_number_1</item>
+        <item>@drawable/ic_number_2</item>
+        <item>@drawable/ic_number_3</item>
+        <item>@drawable/ic_number_4</item>
+        <item>@drawable/ic_number_5</item>
+        <item>@drawable/ic_number_6</item>
+        <item>@drawable/ic_number_7</item>
+        <item>@drawable/ic_number_8</item>
+    </array>
+</resources>

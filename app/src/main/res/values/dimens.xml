@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Gallery-->
+    <dimen name="fragment_gallery_selection_indicator">25dp</dimen>
+    <dimen name="fragment_gallery_item_space">12dp</dimen>
+    <dimen name="gallery_toolbar_icon_size">24dp</dimen>
+    <dimen name="gallery_toolbar_content_insert">0dp</dimen>
+    <dimen name="gallery_toolbar_icon_margin">16dp</dimen>
+    <dimen name="gallery_toolbar_title_size">20sp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MediaGallery</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="all_photos">All photos</string>
+    <string name="all_videos">All videos</string>
+
+    <string name="can_not_select_more_items">Can not select more items</string>
+    <string name="can_not_select_this_image">Can not select this image</string>
+    <string name="open_photo_gallery">Open Photo Gallery</string>
+    <string name="open_video_gallery">Open Video Gallery</string>
+</resources>
